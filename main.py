@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import streamlit as st
 
+plt.rcParams.update({'font.size': 15})
 st.header('EDA🍲')
 
 raw=pd.read_csv('indian_food.csv')
